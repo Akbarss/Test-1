@@ -1,0 +1,16 @@
+* {
+  margin: 1px;
+}
+body {
+  font-family: "Squada One", sans-serif;
+  background-color: aqua;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  background-color: blue;
+  padding: 0px;
+}

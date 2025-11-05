@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f31616;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.max-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.block-link-1 {
+  display: flex;
+  gap: 20px;
+}
+
+.block-link-2 {
+  display: flex;
+  gap: 20px;
+}
+
+.color-text {
+  color: blueviolet;
+}

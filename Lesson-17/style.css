@@ -1,3 +1,7 @@
+body {
+  font-family: "Nerko One", cursive;
+}
+
 .container {
   display: grid;
   grid-template-areas: "header header" "sidebar main" "footer footer";
@@ -23,26 +27,36 @@
   background-color: blueviolet;
 }
 
-.content-card {
+.analytics {
   display: grid;
-  grid-template-columns: 800px 1fr 80px;
-  align-items: center;
-  background-color: beige;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1);
+  grid-template-areas: "k1 k2 k3" "chart chart table";
 }
 
-.content-card-2 {
-  display: grid;
-  grid-template-columns: 800px 1fr 80px;
+.kpi:nth-child(1) {
+  grid-area: k1;
+  height: 300px;
+  background-color: rgb(58, 226, 43);
+  border-radius: 10px;
+}
+
+.kpi:nth-child(2) {
+  grid-area: k2;
+  height: 300px;
+  background-color: rgb(231, 232, 238);
+  border-radius: 10px;
+}
+
+.kpi:nth-child(3) {
+  grid-area: k3;
+  height: 300px;
+  background-color: rgb(206, 188, 201);
+  border-radius: 10px;
 }
 
 .footer {
   grid-area: footer;
   background-color: chartreuse;
   text-align: center;
-}
-
-ul {
-  display: grid;
-  align-items: center;
-  gap: 10px;
 }

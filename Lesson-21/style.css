@@ -8,6 +8,7 @@ body {
   grid-template-rows: 70px 1fr;
   grid-template-areas: "sidebar header" "sidebar content";
   min-height: 100vh;
+  z-index: -4;
 }
 
 .sidebar {
